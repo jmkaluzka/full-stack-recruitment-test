@@ -1,0 +1,66 @@
+@import '~bpk-mixins';
+
+.Results {
+  // background-color: gray;
+}
+
+.Itinerary {
+  margin-bottom: $bpk-spacing-sm;
+}
+
+.Leg {
+  display: flex;
+  align-items: center;
+}
+
+.Logo {
+  width: 35px;
+  height: 35px;
+  margin-right: $bpk-spacing-sm;
+}
+
+.Stop {
+  display: flex;
+  flex-direction: column;
+}
+
+.Airport {
+  color: gray;
+}
+
+.Duration {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  text-align: end;
+}
+
+.Arrow {
+  fill: gray;
+  margin: $bpk-spacing-base;
+}
+
+
+.Direct {
+  color: $bpk-color-monteverde;
+}
+.NonDirect {
+  color: $bpk-color-panjin;
+}
+
+.Footer {
+  display: flex;
+}
+.PriceAndAgent {
+  display: flex;
+  flex-direction: column;
+}
+
+.Agent {
+  color: gray; 
+}
+
+.Button {
+  margin-left: auto;
+  align-self: center;
+}

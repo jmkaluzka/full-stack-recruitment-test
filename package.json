@@ -20,6 +20,9 @@
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "backpack-react-scripts": "^7.0.2",
+    "bpk-component-button": "^3.2.30",
+    "bpk-component-card": "^2.0.51",
+    "bpk-component-icon": "^5.2.1",
     "bpk-component-text": "^2.0.21",
     "bpk-mixins": "^19.0.21",
     "bpk-stylesheets": "^4.1.2",
@@ -37,5 +40,8 @@
     "not dead",
     "not ie <= 10",
     "not op_mini all"
-  ]
+  ],
+  "dependencies": {
+    "moment": "^2.26.0"
+  }
 }
